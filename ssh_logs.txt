@@ -1,0 +1,80 @@
+2026-04-01T07:51:06.646503+00:00 dark sshd[1136]: Server listening on 0.0.0.0 port 22.
+2026-04-01T07:51:06.647545+00:00 dark sshd[1136]: Server listening on :: port 22.
+2026-04-01T07:51:13.384514+00:00 dark sshd[1137]: Accepted password for dark from 192.168.100.20 port 60992 ssh2
+2026-04-01T07:51:13.396242+00:00 dark sshd[1137]: pam_unix(sshd:session): session opened for user dark(uid=1000) by dark(uid=0)
+2026-04-01T07:52:13.243782+00:00 dark sshd[1192]: Received disconnect from 192.168.100.20 port 60992:11: disconnected by user
+2026-04-01T07:52:13.258233+00:00 dark sshd[1192]: Disconnected from user dark 192.168.100.20 port 60992
+2026-04-01T07:52:13.260086+00:00 dark sshd[1137]: pam_unix(sshd:session): session closed for user dark
+2026-04-01T07:53:18.658030+00:00 dark sshd[1219]: Accepted password for dark from 192.168.100.20 port 38746 ssh2
+2026-04-01T07:53:18.668974+00:00 dark sshd[1219]: pam_unix(sshd:session): session opened for user dark(uid=1000) by dark(uid=0)
+2026-04-01T07:59:11.969618+00:00 dark sshd[1276]: Received disconnect from 192.168.100.20 port 38746:11: disconnected by user
+2026-04-01T07:59:11.984792+00:00 dark sshd[1276]: Disconnected from user dark 192.168.100.20 port 38746
+2026-04-01T07:59:11.986363+00:00 dark sshd[1219]: pam_unix(sshd:session): session closed for user dark
+2026-04-02T12:00:51.074877+00:00 dark sudo:     dark : TTY=tty1 ; PWD=/home/dark ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+2026-04-02T12:00:51.311606+00:00 dark sshd[2292]: Server listening on 0.0.0.0 port 22.
+2026-04-02T12:00:51.312056+00:00 dark sshd[2292]: Server listening on :: port 22.
+2026-04-02T12:13:48.301138+00:00 dark sshd[2417]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.100.20  user=dark
+2026-04-02T12:13:50.522202+00:00 dark sshd[2417]: Failed password for dark from 192.168.100.20 port 41066 ssh2
+2026-04-02T12:14:01.279314+00:00 dark sshd[2417]: message repeated 2 times: [ Failed password for dark from 192.168.100.20 port 41066 ssh2]
+2026-04-02T12:14:02.769400+00:00 dark sshd[2417]: Connection closed by authenticating user dark 192.168.100.20 port 41066 [preauth]
+2026-04-02T12:14:02.769762+00:00 dark sshd[2417]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.100.20  user=dark
+2026-04-02T12:18:33.065588+00:00 dark sshd[2454]: Accepted password for dark from 192.168.100.20 port 36718 ssh2
+2026-04-02T12:18:33.072999+00:00 dark sshd[2454]: pam_unix(sshd:session): session opened for user dark(uid=1000) by dark(uid=0)
+2026-04-02T12:18:36.571162+00:00 dark sshd[2552]: Received disconnect from 192.168.100.20 port 36718:11: disconnected by user
+2026-04-02T12:18:36.584480+00:00 dark sshd[2552]: Disconnected from user dark 192.168.100.20 port 36718
+2026-04-02T12:18:36.587104+00:00 dark sshd[2454]: pam_unix(sshd:session): session closed for user dark
+2026-04-02T12:18:39.395591+00:00 dark sshd[2563]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.100.20  user=dark
+2026-04-02T12:18:40.902281+00:00 dark sshd[2563]: Failed password for dark from 192.168.100.20 port 36720 ssh2
+2026-04-02T12:18:49.040579+00:00 dark sshd[2563]: message repeated 2 times: [ Failed password for dark from 192.168.100.20 port 36720 ssh2]
+2026-04-02T12:18:50.638793+00:00 dark sshd[2563]: Connection closed by authenticating user dark 192.168.100.20 port 36720 [preauth]
+2026-04-02T12:18:50.641087+00:00 dark sshd[2563]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.100.20  user=dark
+2026-04-02T12:25:11.445840+00:00 dark sshd[2620]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.100.20  user=dark
+2026-04-02T12:25:13.772968+00:00 dark sshd[2620]: Failed password for dark from 192.168.100.20 port 51164 ssh2
+2026-04-02T12:26:55.335367+00:00 dark sshd[2620]: message repeated 2 times: [ Failed password for dark from 192.168.100.20 port 51164 ssh2]
+2026-04-02T12:26:57.053063+00:00 dark sshd[2620]: Connection closed by authenticating user dark 192.168.100.20 port 51164 [preauth]
+2026-04-02T12:26:57.053921+00:00 dark sshd[2620]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.100.20  user=dark
+2026-04-02T12:49:41.144919+00:00 dark sshd[2800]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.100.20  user=dark
+2026-04-02T12:49:42.944742+00:00 dark sshd[2800]: Failed password for dark from 192.168.100.20 port 46940 ssh2
+2026-04-02T12:49:55.257582+00:00 dark sshd[2800]: message repeated 2 times: [ Failed password for dark from 192.168.100.20 port 46940 ssh2]
+2026-04-02T12:49:56.169974+00:00 dark sshd[2800]: Connection closed by authenticating user dark 192.168.100.20 port 46940 [preauth]
+2026-04-02T12:49:56.170761+00:00 dark sshd[2800]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.100.20  user=dark
+2026-04-02T12:49:57.490049+00:00 dark sshd[2810]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.100.20  user=dark
+2026-04-02T12:49:59.477191+00:00 dark sshd[2810]: Failed password for dark from 192.168.100.20 port 36618 ssh2
+2026-04-02T12:50:04.645350+00:00 dark sshd[2810]: Failed password for dark from 192.168.100.20 port 36618 ssh2
+2026-04-02T12:50:09.637586+00:00 dark sshd[2810]: Failed password for dark from 192.168.100.20 port 36618 ssh2
+2026-04-02T12:50:10.811461+00:00 dark sshd[2810]: Connection closed by authenticating user dark 192.168.100.20 port 36618 [preauth]
+2026-04-02T12:50:10.811823+00:00 dark sshd[2810]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.100.20  user=dark
+2026-04-02T12:50:15.051270+00:00 dark sshd[2828]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.100.20  user=dark
+2026-04-02T12:50:17.512963+00:00 dark sshd[2828]: Failed password for dark from 192.168.100.20 port 33726 ssh2
+2026-04-02T12:50:27.793420+00:00 dark sshd[2828]: message repeated 2 times: [ Failed password for dark from 192.168.100.20 port 33726 ssh2]
+2026-04-02T12:50:29.499039+00:00 dark sshd[2828]: Connection closed by authenticating user dark 192.168.100.20 port 33726 [preauth]
+2026-04-02T12:50:29.499221+00:00 dark sshd[2828]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.100.20  user=dark
+2026-04-02T12:50:30.579024+00:00 dark sshd[2839]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.100.20  user=dark
+2026-04-02T12:50:32.884941+00:00 dark sshd[2839]: Failed password for dark from 192.168.100.20 port 33588 ssh2
+2026-04-02T12:50:42.891874+00:00 dark sshd[2839]: message repeated 2 times: [ Failed password for dark from 192.168.100.20 port 33588 ssh2]
+2026-04-02T12:50:44.213003+00:00 dark sshd[2839]: Connection closed by authenticating user dark 192.168.100.20 port 33588 [preauth]
+2026-04-02T12:50:44.213484+00:00 dark sshd[2839]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.100.20  user=dark
+2026-04-02T12:54:19.379425+00:00 dark sshd[2864]: Accepted password for dark from 192.168.100.20 port 56270 ssh2
+2026-04-02T12:54:19.382920+00:00 dark sshd[2864]: pam_unix(sshd:session): session opened for user dark(uid=1000) by dark(uid=0)
+2026-04-02T12:54:20.093831+00:00 dark sshd[2922]: Received disconnect from 192.168.100.20 port 56270:11: disconnected by user
+2026-04-02T12:54:20.102403+00:00 dark sshd[2922]: Disconnected from user dark 192.168.100.20 port 56270
+2026-04-02T12:54:20.102814+00:00 dark sshd[2864]: pam_unix(sshd:session): session closed for user dark
+2026-04-02T12:54:27.037121+00:00 dark sshd[2928]: Connection closed by authenticating user dark 192.168.100.20 port 53434 [preauth]
+2026-04-02T12:54:31.677920+00:00 dark sshd[2947]: Accepted password for dark from 192.168.100.20 port 47038 ssh2
+2026-04-02T12:54:31.681182+00:00 dark sshd[2947]: pam_unix(sshd:session): session opened for user dark(uid=1000) by dark(uid=0)
+2026-04-15T05:52:38.113898+00:00 dark sshd[1021]: Server listening on 0.0.0.0 port 22.
+2026-04-15T05:52:38.114193+00:00 dark sshd[1021]: Server listening on :: port 22.
+2026-04-15T05:52:44.709428+00:00 dark sshd[1023]: Accepted password for dark from 192.168.29.245 port 51164 ssh2
+2026-04-15T05:52:44.713594+00:00 dark sshd[1023]: pam_unix(sshd:session): session opened for user dark(uid=1000) by dark(uid=0)
+2026-04-15T05:53:11.695585+00:00 dark sudo:     dark : TTY=pts/0 ; PWD=/home/dark ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+2026-04-15T05:56:41.822098+00:00 dark sshd[1120]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.29.245  user=dark
+2026-04-15T05:56:43.211984+00:00 dark sshd[1120]: Failed password for dark from 192.168.29.245 port 42484 ssh2
+2026-04-15T05:56:52.468812+00:00 dark sshd[1120]: message repeated 2 times: [ Failed password for dark from 192.168.29.245 port 42484 ssh2]
+2026-04-15T05:56:53.721696+00:00 dark sshd[1120]: Connection closed by authenticating user dark 192.168.29.245 port 42484 [preauth]
+2026-04-15T05:56:53.722560+00:00 dark sshd[1120]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.29.245  user=dark
+2026-04-15T05:59:34.700637+00:00 dark sshd[1083]: Received disconnect from 192.168.29.245 port 51164:11: disconnected by user
+2026-04-15T05:59:34.702883+00:00 dark sshd[1083]: Disconnected from user dark 192.168.29.245 port 51164
+2026-04-15T05:59:34.704058+00:00 dark sshd[1023]: pam_unix(sshd:session): session closed for user dark
+2026-04-15T05:59:43.334019+00:00 dark sshd[1135]: Accepted password for dark from 192.168.29.245 port 42370 ssh2
+2026-04-15T05:59:43.336904+00:00 dark sshd[1135]: pam_unix(sshd:session): session opened for user dark(uid=1000) by dark(uid=0)
+2026-04-15T06:01:43.801314+00:00 dark sshd[1226]: Connection closed by 192.168.29.23 port 47820 [preauth]
