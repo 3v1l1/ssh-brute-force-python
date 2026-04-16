@@ -27,7 +27,7 @@ FAILED → FAILED → FAILED → SUCCESS
 
 ## 🚨 Sample Output
 
-![Detection Output](output.png)
+![Detection Output](screenshots/output.png)
 
 ---
 
