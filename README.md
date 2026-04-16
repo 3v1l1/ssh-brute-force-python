@@ -27,7 +27,7 @@ FAILED → FAILED → FAILED → SUCCESS
 
 ## 🚨 Sample Output
 
-![Detection Output] (Screenshot from 2026-04-16 12-04-00.png)
+![Detection Output](Screenshot from 2026-04-16 12-04-00.png)
 
 ---
 
